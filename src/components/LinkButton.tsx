@@ -4,8 +4,9 @@ type Props = {
   link: Link;    
 }
 const LinkButton = ({link}:Props)=>{
+  const hasUrl = link.isUrl;
     return (
-      <a href={link.url} target="_blank">
+      <a href={hasUrl ? link.url : `mailto:${link.email}`} target="_blank">
         <button type="button" className={`link-button ${link.smc}`}>
          {link.displayName}
         </button>
