@@ -16,7 +16,7 @@ const LinksContainer  = ()=>{
         {
             url: 'https://www.linkedin.com/in/abhirup-datta-a27036216/',
             displayName: 'Linkedin',
-            smc:'tw',
+            smc:'lk',
         },
     ]
    return (

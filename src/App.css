@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+:root{
+    --twitter: #1DA1F2;
+    --youtube: #FF0000;
+    --linkedin: #0077b5;
+}
+
 .main-content{
     width: 60%;
     margin: 20px auto;
@@ -31,13 +37,32 @@
     cursor:pointer;
     width:100%;
     transition: box-shadow 0.4s;
+    border-style: 2px solid;
 }
 
-:root{
-    --hover: red;
+.tw{
+    border-color:var(--twitter);
 }
 
-.link-button:hover,
-.link-button:focus {
-  box-shadow: inset 10rem 0 0 0 var(--hover);
+.yt{
+    border-color: var(--youtube);
+}
+
+.lk{
+    border-color: var(--linkedin);
+}
+
+.tw:hover,
+.tw:focus {
+  box-shadow: inset 10rem 0 0 0 var(--twitter);
+}
+
+.yt:hover,
+.yt:focus {
+  box-shadow: inset 10rem 0 0 0 var(--youtube);
+}
+
+.lk:hover,
+.lk:focus {
+  box-shadow: inset 10rem 0 0 0 var(--linkedin);
 }

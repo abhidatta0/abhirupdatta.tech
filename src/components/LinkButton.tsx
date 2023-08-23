@@ -6,7 +6,7 @@ type Props = {
 const LinkButton = ({link}:Props)=>{
     return (
       <a href={link.url} target="_blank">
-        <button type="button" className={`link-button ${link.displayName}`}>
+        <button type="button" className={`link-button ${link.smc}`}>
          {link.displayName}
         </button>
         </a>
