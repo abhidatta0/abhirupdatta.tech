@@ -9,6 +9,19 @@
     --linkedin: #0077b5;
 }
 
+.name{
+    font-size: 2rem;
+}
+
+.about{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.lt-link{
+    color:#E04E39
+}
+
 .main-content{
     width: 60%;
     margin: 20px auto;
@@ -23,6 +36,7 @@
     object-fit: cover;
     border-radius: 10rem;
     border: 2px solid green;
+    margin: 0.5rem 0;
 }
 
 .link-container{
